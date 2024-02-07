@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-menu, ul, ol {
+ul {
 	list-style: none;
 }
 
@@ -74,9 +74,10 @@ a {
 }
 
 .col-8 {
-	width: calc(8 * 100% / 12);
+	width: calc(3 * 100% / 12);
     padding: 0 20px;
     border-left: 1px solid rgb(255, 255, 255);
+    margin: 20px 0
 }
 
 .webapp .webapp-footer {
