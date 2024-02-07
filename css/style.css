@@ -10,6 +10,11 @@ menu, ul, ol {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+	color: currentColor;
+}
+
 /*STYLE*/
 
 .webapp {
@@ -26,7 +31,6 @@ menu, ul, ol {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 header .nav {
@@ -36,3 +40,29 @@ header .nav {
 header ul.nav {
 	margin: 10px 0;
 }
+
+.webapp main {
+	flex-grow: 1;
+}
+
+.top-bar {
+	background-color: #0E121B;
+    height: 55px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button {
+	background-color: #ffffff;
+    color:black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.main-content {
+	background-color: #131923;
+}
+
