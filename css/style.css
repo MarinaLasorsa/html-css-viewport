@@ -20,15 +20,21 @@ a {
 .webapp {
 	height: 100vh;
     display: flex;
+    flex-direction: column;
     color: white;
+}
+
+.app-body {
+	display: flex;
+    flex-grow: 1;
 }
 
 .webapp .sidebar {
 	background-color: black;
     padding: 15px 10px;
-    width: 150px;
-    height: 100vh; 
+    width: 150px; 
     display: flex;
+    flex-shrink: 1;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -39,10 +45,6 @@ a {
 
 .sidebar ul.nav {
 	margin: 10px 0;
-}
-
-.webapp main {
-	flex-grow: 1;
 }
 
 .top-bar {
@@ -80,16 +82,16 @@ a {
     margin: 20px 0
 }
 
-.webapp .webapp-footer {
+.webapp .app-bottom {
 	background-color: #282828;
-    padding: 20px 10px;
+    padding: 10px 10px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.webapp-footer ul {
+.app-bottom ul {
     display: flex;
 	gap: 15px;
 }
